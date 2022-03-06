@@ -7,7 +7,7 @@
  */
 declare(strict_types=1);
 
-namespace Lava\AMQP\Config;
+namespace EasyApi\AMQP\Config;
 
 use EasySwoole\Spl\SplBean;
 

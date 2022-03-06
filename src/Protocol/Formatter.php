@@ -25,7 +25,7 @@ class Formatter
     {
         $this->formatter = $formatter;
 
-        $class = '\\Lava\\AMQP\\Protocol\\' . ucfirst($formatter);
+        $class = '\\EasyApi\\AMQP\\Protocol\\' . ucfirst($formatter);
         if (class_exists($class)) {
             $this->formatterProtocol = new $class();
         }

@@ -9,9 +9,9 @@ declare(strict_types=1);
 
 namespace EasyApi\AMQP;
 
-use Lava\AMQP\Contract\IMessage;
-use Lava\AMQP\Protocol\Formatter;
-use Lava\AMQP\Protocol\IFormatter;
+use EasyApi\AMQP\Contract\IMessage;
+use EasyApi\AMQP\Protocol\Formatter;
+use EasyApi\AMQP\Protocol\IFormatter;
 use PhpAmqpLib\Message\AMQPMessage;
 
 /**

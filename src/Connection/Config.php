@@ -15,7 +15,7 @@ use EasySwoole\Spl\SplBean;
  * Class Config
  * @author: XueSi <1592328848@qq.com>
  * @date: 2022/3/5 12:07 下午
- * @package Lava\AMQP\Connection
+ * @package EasyApi\AMQP\Connection
  */
 class Config extends SplBean
 {
