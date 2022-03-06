@@ -1,0 +1,21 @@
+{
+    "name": "easyapi/amqp",
+    "autoload": {
+        "psr-4": {
+            "EasyApi\\AMQP\\": "src/",
+            "EasyApi\\AMQP\\Test\\": "test/"
+        },
+        "files": ["src/Helper/func.php"]
+    },
+    "authors": [
+        {
+            "name": "XueSi",
+            "email": "1592328848@qq.com"
+        }
+    ],
+    "require": {
+        "php-amqplib/php-amqplib": "^3.1",
+        "easyswoole/spl": "^1.4",
+        "easyswoole/swoole-ide-helper": "^1.3"
+    }
+}
